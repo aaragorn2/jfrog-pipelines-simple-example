@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: my_github
-      path: rajeshg/jfrog-pipelines-simple-example
+      path: aaragorn2/jfrog-pipelines-simple-example
       branches:
         include: master
   - name: myBuildInfo
