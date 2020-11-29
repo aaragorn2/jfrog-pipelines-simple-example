@@ -2,15 +2,14 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      //gitProvider: my_github
-      gitProvider: my_github
+      gitProvider: zen1
       path: aaragorn2/jfrog-pipelines-simple-example
       branches:
         include: master
   - name: myBuildInfo
     type: BuildInfo
     configuration:
-      sourceArtifactory: art
+      sourceArtifactory: zen_art
       buildName: SampleApp
       buildNumber: 1          
 pipelines:  
