@@ -2,6 +2,7 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
+      //gitProvider: my_github
       gitProvider: my_github
       path: aaragorn2/jfrog-pipelines-simple-example
       branches:
