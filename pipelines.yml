@@ -77,4 +77,4 @@ pipelines:
             - name: zen1            
         execution:
           onExecute:
-            - 'curl -H "Authorization: token ${test}" $zen1/rate_limit'
+            - 'curl -H "Authorization: token ${test}" $aaragorn2/rate_limit'
