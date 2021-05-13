@@ -67,14 +67,14 @@ pipelines:
         execution:
           onExecute:
             - echo $app_version
-      - name: step_5
-        type: Bash
-        configuration:
-          inputSteps:
-            - name: step_3
-            - name: step_4  
-          integrations:
-            - name: GitZZ        
-        execution:
-          onExecute:
-            - 'curl -H "Authorization: token ${int_zen1_token}" ${int_zen1_url}/rate_limit'
+  //    - name: step_5
+  //      type: Bash
+  //      configuration:
+  //        inputSteps:
+  //          - name: step_3
+  //          - name: step_4  
+  //        integrations:
+  //          - name: GitZZ        
+  //      execution:
+  //        onExecute:
+  //          - 'curl -H "Authorization: token ${int_zen1_token}" ${int_zen1_url}/rate_limit'
