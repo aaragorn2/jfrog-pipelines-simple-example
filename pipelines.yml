@@ -74,7 +74,7 @@ pipelines:
             - name: step_3
             - name: step_4  
           integrations:
-            - name: zen1            
+            - name: GitZ           
         execution:
           onExecute:
             - 'curl -H "Authorization: token ${int_zen1_token}" ${int_zen1_url}/rate_limit'
