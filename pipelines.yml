@@ -2,8 +2,8 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      gitProvider: zen1
-      path: aaragorn2/jfrog-pipelines-simple-example
+      gitProvider: GitZZ
+      path: RjSH1/jfrog-pipelines-simple-example
       branches:
         include: master
   - name: myBuildInfo
