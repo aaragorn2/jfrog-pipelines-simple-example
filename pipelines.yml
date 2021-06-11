@@ -2,7 +2,7 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      gitProvider: GitZZ
+      gitProvider: GithubZZ
       path: RjSH1/jfrog-pipelines-simple-example
       branches:
         include: master
