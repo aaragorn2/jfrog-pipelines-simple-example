@@ -24,8 +24,8 @@ pipelines:
     configuration:
       environmentVariables:
         readOnly:
-          env1: value1
-          env2:
+          pipe_env1: value1
+          pipe_env2:
             default: value1
             description: Optional description added in the yaml
             values:
