@@ -27,7 +27,7 @@ pipelines:
           env1: value1
           env2:
             default: value1
-            description: env2 description
+            description: Optional description added in the yaml
             values:
               - value1
               - value2
