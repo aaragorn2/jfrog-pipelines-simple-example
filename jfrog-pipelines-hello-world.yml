@@ -48,7 +48,8 @@ pipelines:
             step_env2: value2  
             step_env3:
               default: value1            
-              description: step env1 description            
+              description: step env1 description
+              allowCustom: false              
           inputResources:
             # Sets up step to be triggered when there are commit events to myFirstRepo
             - name: myFirstRepo
